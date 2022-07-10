@@ -6,6 +6,7 @@ export const background = {
   appInverse: '#7A8997',
   positive: '#E1FFD4',
   negative: '#FEDED2',
+  negativeDarker: '#7A2100',
   warning: '#FFF5CF',
 };
 
@@ -36,9 +37,9 @@ export const color = {
   border: 'rgba(0,0,0,.1)',
 
   // Status
-  positive: '#66BF3C',
-  negative: '#FF4400',
-  warning: '#E69D00',
+  positive: '#234215',
+  negative: '#611A00',
+  warning: '#523800',
 };
 
 export const spacing = {

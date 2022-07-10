@@ -51,7 +51,7 @@ const Image = styled.div`
   ${props =>
     !props.src &&
     css`
-      background: ${!props.loading && '#37D5D3'};
+      background: ${!props.loading && '#0F4847'};
     `}
 
   img {
@@ -100,7 +100,7 @@ const Initial = styled.div`
 
 export function Avatar({ loading, username, src, size, ...props }) {
   let avatarFigure = <Icon icon="useralt" />;
-  const a11yProps = {};
+  const a11yProps = {'role': 'button'};
 
   if (loading) {
     a11yProps['aria-busy'] = true;
